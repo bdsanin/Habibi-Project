@@ -1,17 +1,55 @@
+![Habibi Banner](./public/readme-intro.svg)
+
+## Dependency to run Project
+
+<p align="center" style="display: flex; justify-content: center; gap: 1rem; align-item: center">
+<a href="https://www.typescriptlang.org/"><img src="./public/Typescript Logo.png"></a>
+<a href="https://nodejs.org/en"><img src="./public/Nodejs Logo.png" width="150"></a>
+<a href="https://git-scm.com/downloads"> 
+  <img src="./public/GitBash.png" width="100">
+</a>
+</p>
+
+### Open Terminal & run this commands
+
+- Install Nodejs
+
+  ```bash
+  winget install OpenJS.NodeJS
+  ```
+
+- Install Typescript
+
+  ```bash
+  npm install -g typescript
+  ```
+
+* Installing Git with via command
+
+  ```bash
+  winget install --id Git.Git -e --source winget
+  ```
+
 ## Getting Started
 
-To run this project you must have Node js in your machine. [Click Here to download it](https://nodejs.org/en/download)
+- Download the source code
 
-```bash
-  npm install -g typescript
+  ```bash
+  git clone https://github.com/bdsanin/Habibi-Project.git
+  ```
+
+- Goto Habibi Project
+  ```bash
+  cd Habibi-Project
+  ```
+- Download all the Node Modules
+  ```bash
   npm install
+  ```
+
+* Run the project in Dev mode.
+  ```bash
   npm run dev
-```
+  ```
 
-Or single command
-
-```bash
-  npm i -g typescript && npm install && npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Go to http://localhost:3000 to see the preview.
